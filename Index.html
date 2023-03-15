@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Torahtenou-Beth Avraham </title>
+  <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+ 
+</head>
+<body>
+
+ <header class="header1" >
+        <nav class="navbar">
+            <a href="#" class="nav-logo"><img src="img/logo.jpg" width="20%"></a>
+<div style=" color:black;"> <a href="#" class="texttes">
+<p style=" color:black; text-align:center;">
+c'est pas un vrai site</p>
+</a></div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="https://
+
+coursdetorah.tk/" class="nav-link">coursdetorah</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://coursdetorah.tk/coursenarabe.html" class="nav-link">cours de torah en arabe </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://coursdetorah.tk/horaires%20de%20chabbath.html" class="nav-link">horaires de chabbath </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+<i class="fa-solid fa-arrows-rotate"></i>
+</a>
+
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+
+<body onload=showDate();> 
+ <span id='horloge'></span>
+<script>
+  function refresh(){
+             var t = 1000; // rafraîchissement en millisecondes
+             setTimeout('showDate()',t)
+         }
+         
+         function showDate() {
+             var date = new Date()
+             var h = date.getHours();
+             var m = date.getMinutes();
+             var s = date.getSeconds();
+             if( h < 10 ){ h = '0' + h; }
+             if( m < 10 ){ m = '0' + m; }
+             if( s < 10 ){ s = '0' + s; }
+             var time = h + ':' + m + ':' + s
+             document.getElementById('horloge').innerHTML = time;
+             refresh();
+          }
+</script>
+
+
+ <header id="h">
+<h1 id="bon" style="text-align:center; font-size:25PX;">  פורים </h1>
+<table id="h1">
+<tr>
+<h1 id="tit">
+ פורים   </h1>
+<td id="bri"><h1 style=" font-size:15PX;">
+
+Chahrit avec megilla </h1> </td>
+<td id="m">6:55-7:00-8:30</td>
+<td id="dr"> <h1 id="dr" style=" font-size:15PX;">   שחרית עם מגילה </h1>
+</td>
+</tr> 
+
+<td><h2>Megillah</h2> </td>
+<td id="m">12:00</td>
+<td id="dr"> <h2 id="dr">מגילה</h2> </td>
+</tr>
+<tr>
+<td><h2>Minha</h2> </td>
+<td id="m">13:30</td>
+<td id="dr"> <h1 id="dr">מנחה</h1> </td>
+</tr>
+<tr>
+<td><h1>Minha-arvit </h1> </td>
+<td id="m">18:20</td>
+<td id="dr"> <h1 id="dr">מנחה-ערבית </h1> </td>
+</tr>
+<tr>
+<td><h1>arvit </h1> </td>
+<td id="m">20:15-22:15</td>
+<td id="dr"> <h1 id="dr">ערבית </h1> </td>
+</tr>
+<tr>
+</table>
+<table id="h1">
+<tr>
+<h1 id="tit">
+ Semaine - חול   </h1>
+<td id="bri"><h1 style=" font-size:15PX;">
+
+Chahrit </h1> </td>
+<td id="m">7:40-8:20</td>
+<td id="dr"> <h1 id="dr" style=" font-size:15PX;"> שחרית </h1>
+</td>
+</tr> 
+
+<td><h2> Chahrit (dim)</h2> </td>
+<td id="m">7:35-7:45-8:35</td>
+<td id="dr"> <h2 id="dr">שחרית יום א׳</h2> </td>
+</tr>
+<tr>
+<td><h2>Minha-arvit</h2> </td>
+<td id="m">18:35</td>
+<td id="dr"> <h1 id="dr">מנחה-ערבית</h1> </td>
+</tr>
+<tr>
+<td><h1>Arvit </h1> </td>
+<td id="m">20:00-22:15</td>
+<td id="dr"> <h1 id="dr"> ערבית</h1> </td>
+</tr>
+<tr>
+</table>
+
+<table id="h1">
+<tr> 
+<h1 id="tit"> שבת </h1>
+<td id="bri"><h1 style=" font-size:15PX;">
+
+Minha-Arvit <p style=" font-size:10PX;">(1er-2éme étage)</p></h1> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">18h30</td>
+<td id="dr"> <h1 id="dr" style=" font-size:15PX;"> מנחה וערבית</h1>
+</td>
+</tr> 
+<!--
+<td><h2>Arvit</h2> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">18h45</td>
+<td id="dr"> <h2 id="dr">ערבית</h2> </td>
+</tr>-->
+<tr>
+<td><h2>chahrit (pti'ha)</h2> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">7h15</td>
+<td id="dr"> <h1 id="dr">שחרית</h1> </td>
+</tr>
+<tr>
+<td><h2>chahrit (maroc)</h2> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">8h00</td>
+<td id="dr"> <h1 id="dr">שחרית</h1> </td>
+</tr>
+<tr>
+<td><h2>chahrit (Tunis)</h2> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">9h30</td>
+<td id="dr"> <h1 id="dr">שחרית</h1> </td>
+</tr>
+<tr>
+<td><h2>chahrit (jeunes) <p style=" font-size:10PX;">(2éme étage)</p> </h2> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">9h30</td>
+<td id="dr"> <h1 id="dr">שחרית</h1> </td>
+</tr>
+<tr>
+<td><h1>Minha </h1> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">18h00</td>
+<td id="dr"> <h1 id="dr"> מנחה </h1> </td>
+</tr>
+<tr>
+<td><h1>Arvit </h1> </td>
+<td id="m" style=" font-size:17PX; color:#000000;">19h36</td>
+<td id="dr"> <h1 id="dr">     
+ ערבית
+
+</h1> </td>
+</tr>
+</table>
+<br>
+
+<iframe style="display: block; margin: 0 auto; border: 2px solid white;
+  padding: 10px;
+background:rgba(255, 252, 252, 0.5);" width="98%" height="215" src="https://www.youtube.com/embed/7q6jpvzVds8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br><br><br><br><br><br><br><br>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
