@@ -1,0 +1,67 @@
+{
+
+  "name": "shol-box",
+
+  "short_name": "shol-teste",
+
+  "lang": "fr",
+
+  "start_url": "./index.html",
+
+  "display": "standalone",
+
+  "background_color": "white",
+
+  "theme_color": "white",
+
+  "icons": [{
+
+      "src": "https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+
+        "sizes": "128x128",
+
+        "type": "image/png"
+
+      }, {
+
+        "src": "https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+
+        "sizes": "144x144",
+
+        "type": "image/png"
+
+      }, {
+
+        "src": "https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+
+        "sizes": "152x152",
+
+        "type": "image/png"
+
+      }, {
+
+        "src": "https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+
+        "sizes": "192x192",
+
+        "type": "image/png"
+
+      }, {
+
+        "src": "https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+
+        "sizes": "256x256",
+
+        "type": "image/png"
+
+      }, {
+
+        "src": "https://th.bing.com/th/id/R.31966a43fc16f88f13592374b37c5149?rik=9UZBm4xWbDwI4g&riu=http%3a%2f%2f1.bp.blogspot.com%2f_tR4bYTcAqeQ%2fSuulSzLg09I%2fAAAAAAAABps%2f5tIBL5nkqsA%2fs1600%2ftorah.logo.50&ehk=tCdy%2bNgv8oKI3uSPy3T%2bIZwMu%2b%2fL20UcN5%2byS1eiymw%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+
+        "sizes": "512x512",
+
+        "type": "image/png"
+
+      }]
+
+}
